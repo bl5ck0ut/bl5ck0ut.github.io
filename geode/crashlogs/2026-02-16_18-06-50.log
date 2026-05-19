@@ -1,0 +1,49 @@
+2026-02-16T18:06:50-0500
+Whoopsies! An unhandled exception has occurred.
+
+== Geode Information ==
+Loader Version: v4.9.0
+Loader Commit: e13b2fa
+Bindings Commit: ade5294e
+Installed mods: 2
+Outdated mods: 0
+Problems: 0
+
+== Exception Information ==
+Faulty Module: C:\Users\forre\Desktop\stuff\251008-gdps\DontRenameMeThxDash.exe
+Faulty Mod: <Unknown>
+Exception Code: c0000005 (EXCEPTION_ACCESS_VIOLATION)
+Exception Flags: 0
+Instruction Address: 004DD929 (DontRenameMeThxDash.exe + dd929)
+Exception Details: Failed to read from memory at 0x194
+Crashed thread: Main
+
+== Stack Trace ==
+ - DontRenameMeThxDash.exe + dd929
+ - libcocos2d.dll + 84adf (cocos2d::CCCallFunc::execute + 15)
+ - libcocos2d.dll + 8b50b (cocos2d::CCActionInterval::step + 155)
+ - libcocos2d.dll + 8d4d4 (cocos2d::CCActionManager::update + 116)
+ - libcocos2d.dll + ff9c2 (cocos2d::CCScheduler::update + 82)
+ - 02810A43
+ - 028120D9
+ - DontRenameMeThxDash.exe + ff9ec
+ - Geode.dll + 24121d (geode::stl::operatorDelete + 3549)
+ - DontRenameMeThxDash.exe + 100993
+ - C:\WINDOWS\System32\KERNEL32.DLL + 1fcc9 (BaseThreadInitThunk + 25)
+ - C:\WINDOWS\SYSTEM32\ntdll.dll + 682ae (RtlGetAppContainerNamedObjectPath + 286)
+ - C:\WINDOWS\SYSTEM32\ntdll.dll + 6827e (RtlGetAppContainerNamedObjectPath + 238)
+
+== Register States ==
+EAX: 00000000
+EBX: 0ab89e88
+ECX: 00c7dd78
+EDX: 00521678
+EBP: 0019ffec
+ESP: 0019ffe4
+EDI: 0ddb54d8
+ESI: 00511b74
+EIP: 77ac827e
+
+== Installed Mods ==
+x | [v4.9.0] geode.loader
+x | [v9.0.4] zmx.aura

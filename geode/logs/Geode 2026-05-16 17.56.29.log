@@ -1,0 +1,21 @@
+17:56:29 INFO  [Main] [Geode]: Running Geode v4.9.0 in Geometry Dash v1.920 on Windows
+17:56:29 INFO  [Main] [Geode]: Setting up internal mod
+17:56:29 INFO  [Main] [Geode]: Setting up loader
+17:56:29 INFO  [Main] [Geode]:   Loading launch arguments
+17:56:29 INFO  [Main] [Geode]:   Setting up crash handler
+17:56:29 INFO  [Main] [Geode]:   Loading hooks
+17:56:29 INFO  [Main] [Geode]:   Setting up directories
+17:56:29 INFO  [Main] [Geode]:   Refreshing mod graph
+17:56:29 INFO  [Main] [Geode]:     Queueing mods
+17:56:29 INFO  [Main] [Geode]:       Finding internal mods
+17:56:29 INFO  [Main] [Geode]:     Populating mod list
+17:56:29 INFO  [Main] [Geode]:     Building mod graph
+17:56:29 INFO  [Main] [Geode]:     Ordering mod stack
+17:56:29 INFO  [Main] [Geode]:     Loading early mods
+17:56:29 INFO  [Main] [Geode]:       Loading mod zmx.aura v9.0.4
+17:56:29 INFO  [Main] [Geode]: Entry took 0.081s
+17:56:30 INFO  [Main] [Geode]: Loading non-early mods
+17:56:30 INFO  [Main] [Geode]:   Finding problems
+17:59:25 INFO  [Main] [1.9 GDPS]: legitimacy tripped, exiting level
+17:59:29 INFO  [Main] [Geode]: Saving mod data...
+17:59:29 INFO  [Main] [Geode]:   Took 0.004s
